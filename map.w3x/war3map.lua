@@ -66,14 +66,16 @@ end
 
 function Trig_New_Game_Actions()
     math.randomseed(os.time(os.date("!*t")))
-    local temp = "gg_rct_Playground" .. math.random(0, 3) .. "IN"
+    local random = math.random(1, 3)
+    local temp = GetRectCenter(_G["gg_rct_Playground" .. random .. "IN"])
+    print(random)
 
     DisplayTimedTextToForce(
         GetPlayersByMapControl(GetPlayerController(GetOwningPlayer(GetTriggerUnit()))),
         30,
         "TRIGSTR_020"
     )
-    SetUnitPositionLoc(GetTriggerUnit(), GetRectCenter(referenceByString(temp)))
+    SetUnitPositionLoc(GetTriggerUnit(), temp)
 end
 
 function InitTrig_New_Game()
