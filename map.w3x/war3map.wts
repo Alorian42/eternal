@@ -1,0 +1,99 @@
+﻿STRING 1
+{
+Eternal
+}
+
+STRING 2
+{
+Не важно
+}
+
+STRING 3
+{
+Описание отсутствует
+}
+
+STRING 4
+{
+Неизвестно
+}
+
+STRING 5
+{
+Игрок 1
+}
+
+STRING 6
+{
+Клан 1
+}
+
+STRING 7
+{
+Игрок 2
+}
+
+STRING 8
+{
+Игрок 3
+}
+
+STRING 9
+{
+Игрок 4
+}
+
+STRING 10
+{
+Игрок 5
+}
+
+STRING 11
+{
+Игрок 6
+}
+
+STRING 12
+{
+Игрок 7
+}
+
+STRING 13
+{
+Игрок 8
+}
+
+STRING 14
+// Войска: h000 (Exile), Name (Название)
+{
+Exile
+}
+
+STRING 15
+// Войска: h000 (Exile), Tip (Подсказка: краткая)
+{
+Exile
+}
+
+STRING 16
+// Войска: h000 (Exile), Ubertip (Подсказка: подробная)
+{
+This is Exile.
+}
+
+STRING 17
+// Войска: n000 (Portal), Name (Название)
+{
+Portal
+}
+
+STRING 18
+{
+|cffd45e19Start New Game|r
+}
+
+STRING 20
+{
+|cffffff00You started new game. Good Luck!|r
+}
+
